@@ -65,31 +65,43 @@ for i, fruit in enumerate(fruit_list):
 # Folosiți funcția zip() pentru a itera simultan prin două liste și a afișa elementele corespunzătoare.
 
 # CODUL TĂU VINE MAI JOS:
-
+names = ["John","Nick","Kyle"]
+ages = [45,25,35]
+for name, age in zip(names, ages):
+    print (name, age)
 # CODUL TĂU VINE MAI SUS:
 
 # Creați o listă de numere de la 1 la 10 folosind un for loop și funcția range().
 
 # CODUL TĂU VINE MAI JOS:
-
+num_list = [i for i in range(10)]
+print(num_list)
 # CODUL TĂU VINE MAI SUS:
 
 # Folosind un buclă while, dublează valorile listei până când primul element va deveni mai mare decât 50.
 
 # CODUL TĂU VINE MAI JOS:
-
+i = 1
+while i > 50:
+    print(num_list[i])
+    num_list = [i + 1 for i in range(len(num_list))]
+    
 # CODUL TĂU VINE MAI SUS:
 
 # Generează și printează o listă cu toate numerele pătrat perfect din intervalul [1, 100].
 
 # CODUL TĂU VINE MAI JOS:
-
+number_list = [i for i in range(100)]
+print(number_list)
+number_list = [i**2 for i in range(len(number_list))]
+print(number_list)
 # CODUL TĂU VINE MAI SUS:
 
 # Folosind un buclă for , printează tabla înmulțirii pentru numărul 7.
 
 # CODUL TĂU VINE MAI JOS:
-
+for i in range(11):
+    print(i * 7)
 # CODUL TĂU VINE MAI SUS:
 
 # Creează o listă de liste, unde fiecare sub-listă conține perechi (i, j) pentru i și j de la 1 la 5. Printează această listă de perechi.
