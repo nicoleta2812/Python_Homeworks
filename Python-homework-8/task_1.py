@@ -107,7 +107,9 @@ for i in range(11):
 # Creează o listă de liste, unde fiecare sub-listă conține perechi (i, j) pentru i și j de la 1 la 5. Printează această listă de perechi.
 
 # CODUL TĂU VINE MAI JOS:
-
+lista_de_liste = [[2,3], [4,5], [1,2]]
+for i in lista_de_liste:
+    print(i)
 # CODUL TĂU VINE MAI SUS:
 
 # Parcurge lista de la punctul anterior și printează doar perechile unde i < j .
@@ -131,6 +133,11 @@ for i in range(11):
 # *****
 
 # CODUL TĂU VINE MAI JOS:
+input = "Introduceti un numar"
+for i in range(5):
+    for j in range(5):
+        print("*", end="")
+    print()
 
 # CODUL TĂU VINE MAI SUS:
 
@@ -145,7 +152,10 @@ for i in range(11):
 # 123456
 
 # CODUL TĂU VINE MAI JOS:
-
+for i in range(7):
+    for j in range(i):
+        print(j+1, end="")
+    print()
 # CODUL TĂU VINE MAI SUS:
 
 # Afișarea 2:
@@ -157,7 +167,10 @@ for i in range(11):
 # 5
 
 # CODUL TĂU VINE MAI JOS:
-
+for i in range(5):  
+    for j in range(5,0,-1):
+        print(j, end="")
+    print()   
 # CODUL TĂU VINE MAI SUS:
 
 # Afișarea 3:
@@ -171,7 +184,10 @@ for i in range(11):
 # g
 
 # CODUL TĂU VINE MAI JOS:
-
+for i in range(7):
+    for j in "abcdefg":
+        print(j, end="")
+    print()
 # CODUL TĂU VINE MAI SUS:
 
 # Afișarea 4:
