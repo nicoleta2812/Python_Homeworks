@@ -108,8 +108,8 @@ for i in range(11):
 
 # CODUL TĂU VINE MAI JOS:
 lista_de_liste = [[2,3], [4,5], [1,2]]
-for i in lista_de_liste:
-    print(i)
+for i,j in lista_de_liste:
+    print(i,j)
 # CODUL TĂU VINE MAI SUS:
 
 # Parcurge lista de la punctul anterior și printează doar perechile unde i < j .
@@ -133,9 +133,10 @@ for i in lista_de_liste:
 # *****
 
 # CODUL TĂU VINE MAI JOS:
-input = "Introduceti un numar"
-for i in range(5):
-    for j in range(5):
+rinduri = int(input("Introduceti numarul de rinduri: "))
+coloane = int(input("Introduceti numarul de coloane: "))
+for i in range(rinduri):
+    for j in range(coloane):
         print("*", end="")
     print()
 
@@ -168,8 +169,8 @@ for i in range(7):
 
 # CODUL TĂU VINE MAI JOS:
 for i in range(5):  
-    for j in range(5,0,-1):
-        print(j, end="")
+    for j in range(i,5):
+        print(5-j, end="")
     print()   
 # CODUL TĂU VINE MAI SUS:
 
