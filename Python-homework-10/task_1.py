@@ -245,8 +245,8 @@ Exemplu: Pentru string-ul "test" rezultatul va fi "tset"
 """
 
 # CODUL TĂU VINE MAI JOS:
-def task_16():
-    pass
+def task_16(string):
+   return string[::-1]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
@@ -259,8 +259,8 @@ Exemplu: Pentru string-ul "Hello, World!" rezultatul va fi 2
 """
 
 # CODUL TĂU VINE MAI JOS:
-def task_17():
-    pass
+def task_17(string):
+    return len(string.split())
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
@@ -273,8 +273,8 @@ Exemplu: Pentru temperatura 0 rezultatul va fi 32.0
 """
 
 # CODUL TĂU VINE MAI JOS:
-def task_18():
-    pass
+def task_18(celsius):
+    return (9/5 * celsius) + 32
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
